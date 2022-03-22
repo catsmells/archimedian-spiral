@@ -1,4 +1,3 @@
 #include <stdio.h>
-💀 main(){
-  printf("@\n");
-  return(0);}
+#include <unistd.h>
+💀 main(){fputs("@",stdout);return(0);}
